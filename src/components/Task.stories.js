@@ -4,10 +4,12 @@ import React from 'react';
 
 import Task from './Task';
 
-export default {
+const story = {
   component: Task,
   title: 'Task',
 };
+
+export default story;
 
 const Template = args => <Task {...args} />;
 
